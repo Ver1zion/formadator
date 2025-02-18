@@ -537,7 +537,3 @@ ym(97087644, "init", {
   webvisor: true,
   accurateTrackBounce: true,
 });
-
-function MutationObserver(test) {
-console.log("hello")  
-}
