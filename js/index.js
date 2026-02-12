@@ -241,33 +241,11 @@ const datas = [
   {
     ecommerce: [
       {
+        currencyCode: "RUB",
         purchase: {
-          products: [
-            {
-              id: "32547",
-              name: "Pillow Silver Goose 50x70",
-              position: 1,
-              brand: ["Askona"],
-              category: "Pillows",
-              item_list_id: "",
-              list: "Sale order page",
-              variant: "50x70",
-              price: 400,
-              currency: "AED",
-              discount: 216,
-              quantity: 1,
-            },
-          ],
-          actionField: {
-            id: "2404",
-            checkoutType: "Sale order page",
-            revenue: 400,
-            tax: 0,
-            shipping: 0,
-            coupon: "",
-          },
+          actionField: { id: "20260420-52789-413978133", revenue: 46950 },
+          products: [{ id: "375602", name: "Стандарт", price: 46950 }],
         },
-        currencyCode: "AED",
       },
     ],
   },
@@ -310,25 +288,4 @@ dataLayer.push({
       },
     },
   ],
-});
-
-(function (m, e, t, r, i, k, a) {
-  m[i] =
-    m[i] ||
-    function () {
-      (m[i].a = m[i].a || []).push(arguments);
-    };
-  m[i].l = 1 * new Date();
-  (k = e.createElement(t)),
-    (a = e.getElementsByTagName(t)[0]),
-    (k.async = 1),
-    (k.src = r),
-    a.parentNode.insertBefore(k, a);
-})(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-ym(97087644, "init", {
-  id: 97087644,
-  clickmap: true,
-  trackLinks: true,
-  webvisor: true,
-  accurateTrackBounce: true,
 });
