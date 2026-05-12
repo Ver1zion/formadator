@@ -274,18 +274,32 @@ convertEcommerceArrayToObject(datas);
 dataLayer.push({
   ecommerce: [
     {
-      currencyCode: "RUB",
       purchase: {
-        actionField: { id: "TEST3", coupon: "Купон", revenue: 1000 },
         products: [
           {
-            id: "1",
-            name: "тест",
-            price: 500,
+            id: "32421",
+            name: "Rachel New I Sky Velvet 08 140x200",
+            position: 1,
+            brand: "Askona",
+            category: "Кровати",
+            item_list_id: "",
+            list: "detailPage",
+            variant: "140x200",
+            price: 617410,
+            currency: "KZT",
+            discount: 1511590,
             quantity: 1,
           },
         ],
+        actionField: {
+          id: "30101",
+          checkoutType: "Order in one click",
+          revenue: 617410,
+          tax: 0,
+          shipping: 0,
+        },
       },
+      currencyCode: "KZT",
     },
   ],
 });

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,7 +6,7 @@
     <title>About</title>
   </head>
   <body>
-    <button onclick="ym(97087644,'reachGoal','testclick')">press</button>
+    <button onclick="ym(97087644, 'reachGoal', 'testclick')">press</button>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
       (function (m, e, t, r, i, k, a) {
@@ -21,17 +21,17 @@
             return;
           }
         }
-        (k = e.createElement(t)),
+        ((k = e.createElement(t)),
           (a = e.getElementsByTagName(t)[0]),
           (k.async = 1),
           (k.src = r),
-          a.parentNode.insertBefore(k, a);
+          a.parentNode.insertBefore(k, a));
       })(
         window,
         document,
         "script",
         "https://mc.yandex.ru/metrika/tag.js",
-        "ym"
+        "ym",
       );
 
       ym(97087644, "init", {
@@ -90,7 +90,7 @@
     <!-- Varioqub experiments -->
     <script type="text/javascript">
       (function (e, x, pe, r, i, me, nt) {
-        (e[i] =
+        ((e[i] =
           e[i] ||
           function () {
             (e[i].a = e[i].a || []).push(arguments);
@@ -101,20 +101,21 @@
           (nt = x.getElementsByTagName(pe)[0]),
           me.addEventListener("error", function () {
             function cb(t) {
-              (t = t[t.length - 1]), "function" == typeof t && t({ flags: {} });
+              ((t = t[t.length - 1]),
+                "function" == typeof t && t({ flags: {} }));
             }
             Array.isArray(e[i].a) && e[i].a.forEach(cb);
             e[i] = function () {
               cb(arguments);
             };
           }),
-          nt.parentNode.insertBefore(me, nt);
+          nt.parentNode.insertBefore(me, nt));
       })(
         window,
         document,
         "script",
         "https://abt.s3.yandex.net/expjs/latest/exp.js",
-        "ymab"
+        "ymab",
       );
       ymab("metrika.97087644", "init" /*, {clientFeatures}, {callback}*/);
     </script>
